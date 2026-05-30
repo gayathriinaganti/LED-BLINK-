@@ -7,10 +7,11 @@ This project demonstrates a simple LED blinking circuit using an Arduino Uno. Th
 - 220Ω Resistor
 - Connecting Wires
 ## KiCad Files
- LED Blink.kicad_sch
- LED Blink.kicad_pcb
- LED Blink.kicad_pro
+ - LED Blink.kicad_sch
+ - LED Blink.kicad_pcb
+ - LED Blink.kicad_pro
 ## Arduino Code
+```cpp
 void setup() {
   pinMode(13, OUTPUT);
 }
@@ -20,6 +21,7 @@ void loop() {
   digitalWrite(13, LOW);
   delay(200);
 }
+```
 ## Wokwi Simulation
 Wokwi Project Link:
 https://wokwi.com/projects/465416115946933249
